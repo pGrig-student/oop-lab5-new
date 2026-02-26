@@ -3,13 +3,13 @@ package book;
 import java.io.Serializable;
 
 public class Book implements Serializable {
-    private int id;
-    private String title;
-    private String author;
-    private String publisher;
-    private int year;
-    private int pageCount;
-    private double price;
+    private final int id;
+    private final String title;
+    private final String author;
+    private final String publisher;
+    private final int year;
+    private final int pageCount;
+    private final double price;
 
     public Book(int id, String title, String author, String publisher, int year, int pageCount, double price) {
         this.id = id;
